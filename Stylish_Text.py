@@ -14,7 +14,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 if __name__ == "__main__" :
     plugins = dict(
-        root="plugins"
+        root="Stylish_Text"
     )
     app = Client(
         "ShowJson",
