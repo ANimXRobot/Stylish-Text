@@ -11,8 +11,8 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'Ns_bot_updates'
 
     # start text
-    text = f"""Hey! {m.from_user.mention(style='md')},
-💡 ** I am Stylish Font Bot**
+    text = f"""👋 Hello Baby ! {m.from_user.mention(style='md')},
+💡 ** I am Stylish Text Bot**
 `I can help you to get stylish fonts. Just send me some text and see magic.`
 
 **👲 Maintained By:** {owner.mention(style='md')}
